@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - นางสาวสนธยา ลีดี (681202796)</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Sarabun', 'Prompt', sans-serif;
+        }
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 0.5rem;
+        }
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        .info-badge {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 6px 16px;
+            border-radius: 20px;
+            margin-top: 10px;
+            font-size: 0.95rem;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 2rem;
+            color: #1e3c72;
+            font-size: 1.8rem;
+            position: relative;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+        .card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+        .card-header {
+            background: #2a5298;
+            color: white;
+            padding: 1rem;
+            font-size: 1.2rem;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .card-body {
+            padding: 1.2rem;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .card-desc {
+            color: #666;
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+        }
+        .tag {
+            display: inline-block;
+            background: #eef2f5;
+            color: #2a5298;
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            margin-bottom: 1rem;
+            font-weight: 500;
+        }
+        .btn {
+            display: inline-block;
+            text-align: center;
+            background: #1e3c72;
+            color: white;
+            text-decoration: none;
+            padding: 10px 18px;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background 0.2s ease;
+        }
+        .btn:hover {
+            background: #2a5298;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: #fff;
+            margin-top: 3rem;
+            border-top: 1px solid #e0e0e0;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1><i class="fas fa-folder-open"></i> เว็บไซต์รวมผลงาน (Portfolio)</h1>
+        <p>นางสาวสนธยา ลีดี | รหัสนักศึกษา: 681202796</p>
+        <div class="info-badge">
+            <i class="fas fa-user-tie"></i> เสนอ: อาจารย์พุธินันท์ นาคสุข
+        </div>
+    </header>
+
+    <div class="container">
+        <h2 class="section-title">รายการชิ้นงานทั้งหมด</h2>
+        
+        <div class="grid">
+            <!-- ชิ้นงานที่ 1 -->
+            <div class="card">
+                <div class="card-header">
+                    <i class="fab fa-google"></i> ชิ้นงานที่ 1: Google Sites Project 1
+                </div>
+                <div class="card-body">
+                    <span class="tag">Google Sites</span>
+                    <p class="card-desc">เว็บไซต์พัฒนาด้วย Google Sites ชิ้นงานที่ 1 นำเสนอข้อมูลและโครงสร้างเว็บไซต์ตามโจทย์ที่ได้รับมอบหมาย</p>
+                    <a href="https://sites.google.com/d/1aICFL-wxhMJIVuKKQ1EtNros3hcl8Q1D/p/1NA0yaXnnV4X1jiQmAImPtFIreLilxblB/edit" target="_blank" class="btn"><i class="fas fa-external-link-alt"></i> เข้าชมผลงาน</a>
+                </div>
+            </div>
+
+            <!-- ชิ้นงานที่ 2 -->
+            <div class="card">
+                <div class="card-header">
+                    <i class="fab fa-google"></i> ชิ้นงานที่ 2: Google Sites Project 2
+                </div>
+                <div class="card-body">
+                    <span class="tag">Google Sites</span>
+                    <p class="card-desc">เว็บไซต์พัฒนาด้วย Google Sites ชิ้นงานที่ 2 ออกแบบและจัดวางองค์ประกอบเว็บไซต์ให้มีความเป็นมืออาชีพ</p>
+                    <a href="https://sites.google.com/d/1jsMjkUhDrIQz7KYHzdJ2mlxKu7oFiX8U/p/1w1ijfQ2nC0d2-EyktkEOtNhzF6OMJHhZ/edit" target="_blank" class="btn"><i class="fas fa-external-link-alt"></i> เข้าชมผลงาน</a>
+                </div>
+            </div>
+
+            <!-- ชิ้นงานที่ 3 -->
+            <div class="card">
+                <div class="card-header">
+                    <i class="fas fa-code"></i> ชิ้นงานที่ 3: CSS22 Design
+                </div>
+                <div class="card-body">
+                    <span class="tag">HTML5 / CSS3 / GitHub Pages</span>
+                    <p class="card-desc">ชิ้นงานฝึกฝนการเขียนโค้ดและตกแต่งสไตล์ด้วย CSS จัดวางเลย์เอาต์ ปรับแต่งสีสันและฟอนต์อย่างสวยงาม</p>
+                    <a href="https://sontaya22.github.io/CSS22/" target="_blank" class="btn"><i class="fas fa-external-link-alt"></i> เข้าชมผลงาน</a>
+                </div>
+            </div>
+
+            <!-- ชิ้นงานที่ 4 -->
+            <div class="card">
+                <div class="card-header">
+                    <i class="fas fa-utensils"></i> ชิ้นงานที่ 4: Cook11 Website
+                </div>
+                <div class="card-body">
+                    <span class="tag">Web Project / GitHub Pages</span>
+                    <p class="card-desc">เว็บไซต์แนะนำเมนูอาหารและการทำอาหาร ออกแบบให้อ่านง่าย มีรูปภาพประกอบและการจัดหมวดหมู่อย่างเป็นระเบียบ</p>
+                    <a href="https://sontaya22.github.io/cook11/" target="_blank" class="btn"><i class="fas fa-external-link-alt"></i> เข้าชมผลงาน</a>
+                </div>
+            </div>
+
+            <!-- ชิ้นงานที่ 5 -->
+            <div class="card">
+                <div class="card-header">
+                    <i class="fas fa-laptop-code"></i> ชิ้นงานที่ 5: DD88 Web Project
+                </div>
+                <div class="card-body">
+                    <span class="tag">Web Development / GitHub Pages</span>
+                    <p class="card-desc">เว็บไซต์โปรเจกต์ DD88 แสดงทักษะการประยุกต์ใช้โค้ดเว็บเพจและการออกแบบที่ตอบโจทย์การใช้งาน</p>
+                    <a href="https://sontaya22.github.io/dd88/" target="_blank" class="btn"><i class="fas fa-external-link-alt"></i> เข้าชมผลงาน</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 นางสาวสนธยา ลีดี (681202796) — ส่งอาจารย์พุธินันท์ นาคสุข</p>
+    </footer>
+
+</body>
+</html>
